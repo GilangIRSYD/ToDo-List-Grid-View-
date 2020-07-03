@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "191211847729",
+    "firebase_url": "https://rodev-fb320.firebaseio.com",
+    "project_id": "rodev-fb320",
+    "storage_bucket": "rodev-fb320.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191211847729:android:da973baa061806d8351510",
+        "android_client_info": {
+          "package_name": "com.catatancodingku.rodev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191211847729-gplojnpqk6ohl959fjb8fcn3it3p0hem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.catatancodingku.rodev",
+            "certificate_hash": "7117ca0bdb31913c9c7201ed2a1e1c6fd4018c10"
+          }
+        },
+        {
+          "client_id": "191211847729-is5pav0pp80ggf2grgf4o5m7mcgh0705.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKU8Q8t8PISwCN-wTSdK7S_9yRc1Q2jgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191211847729-is5pav0pp80ggf2grgf4o5m7mcgh0705.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

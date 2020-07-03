@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="300dp"
+        android:layout_height="370dp"
+        android:background="@drawable/green_dialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/mbold"
+        android:text="Edit Task"
+        android:textColor="@color/greenAccent"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/view4"
+        app:layout_constraintRight_toRightOf="@id/view4"
+        app:layout_constraintTop_toBottomOf="@id/textView5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Judul"
+            android:textColor="@color/greenAccent"
+            android:fontFamily="@font/mreguler"
+            android:layout_marginLeft="4dp"/>
+
+        <EditText
+            android:id="@+id/edEditTaskJudul"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="20dp"
+            android:inputType="text"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@drawable/edit_green"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Deskrpisi"
+            android:textColor="@color/greenAccent"
+            android:fontFamily="@font/mreguler"
+            android:layout_marginLeft="4dp"/>
+
+        <EditText
+            android:id="@+id/edEditTaskDeskripsi"
+            android:layout_marginTop="6dp"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:background="@drawable/edit_green"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEditSimpan"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/green_btn_dark"
+        android:fontFamily="@font/mbold"
+        android:text="Simpan"
+        android:textColor="@color/greenAccent"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintStart_toStartOf="@+id/view4" />
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:srcCompat="@drawable/close_green"
+        tools:ignore="VectorDrawableCompat" />
+</androidx.constraintlayout.widget.ConstraintLayout>

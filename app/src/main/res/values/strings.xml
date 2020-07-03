@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RoDev</string>
+    <string name="detail_popup">Tugas ini akan dihapus permanen dan tidak dapat dikembalikan, apakah anda yakin akan menghapusnya ?</string>
+</resources>
